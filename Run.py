@@ -4,7 +4,6 @@ from transformers.generation import GenerationConfig
 import os
 import platform
 
-# 请注意：分词器默认行为已更改为默认关闭特殊token攻击防护。相关使用指引，请见examples/tokenizer_showcase.ipynb
 path = "G:/code/Qwen-7B"
 
 # quantization configuration for NF4 (4 bits)
